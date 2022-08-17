@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#777509, #9e9c19, #c1c412, #d3e815);
+    flex-direction: column;
+}
+
+
+/**************TITLE**************/
+
+h1 {
+    font-size: 50px;
+    color: rgb(4, 58, 16);
+    word-spacing: 30px;
+    letter-spacing: 12px;
+    animation: Band-animation 2s linear infinite forwards;
+}
+
+
+/*************FLAG**************/
+
+.retangulo {
+    width: 600px;
+    height: 350px;
+    background-color: #042f0d;
+    box-shadow: 0px 0px 10px 10px black;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.losangulo1 {
+    position: absolute;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 175px solid rgb(197, 197, 62);
+    top: 0;
+}
+
+.losangulo2 {
+    position: absolute;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 175px solid rgb(197, 197, 62);
+    bottom: 0;
+}
+
+.brasao {
+    position: absolute;
+}
